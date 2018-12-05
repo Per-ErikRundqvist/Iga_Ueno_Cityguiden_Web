@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+body {
+    background-color: black;
+}
+
+img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: gold;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    font-weight: bold;
+}
+
+nav li a {
+    display: inline-block;
+    color: black;
+    padding: 10px 14px;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    clear: both;
+    bottom: 0;
+    text-align: center;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    color: white;
+    text-align: left;
+}
+
+table {
+    width: 100%
+}
+
+th, td {
+    padding: 5px;
+}
+    
+th {
+    width: 30%;
+}
+
+td {
+    width: 70%;
+}
+
+.aktiv {
+    color: darkred;
+}
+
+.rad::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float_center {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.float_hoger {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.float_vanster {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 720px) {
+    
+.float_hoger {
+    float: right;
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.float_vanster {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+ }
+    
+}
+
+@media only screen and (max-height: 400px) {
+   .logo {
+    display: block;
+    max-height: 200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+    
+    img {
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
